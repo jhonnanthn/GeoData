@@ -6,10 +6,6 @@
     android:layout_height="match_parent"
     tools:context="br.usjt.desvmob.geodata.controller.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/lblContinente"/>
     <Spinner
         android:id="@+id/spinnerContinente"
         android:layout_width="0dp"
