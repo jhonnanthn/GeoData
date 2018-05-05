@@ -20,7 +20,7 @@ import br.usjt.desvmob.geodata.util.PaisAdapter;
  */
 
 public class ListaPaisesActivity extends Activity {
-    public static final String PAIS = "br.usjt.desvmob.geodata.model.pais";
+    public static final String PAIS = "br.usjt.desvmob.geodata.model.Pais";
     Activity atividade;
     Pais[] paises;
     ArrayList<String> nomes;
@@ -34,7 +34,7 @@ public class ListaPaisesActivity extends Activity {
         setContentView(R.layout.activity_lista_paises);
         atividade = this;
         Intent intent = getIntent();
-        String continente = intent.getStringExtra(MainActivity.CHAVE);
+        String continente = intent.getStringExtra(MainActivity.PAIS);
         paises = Data.listarPaises(continente);
         nomes = Data.listarNomes(paises);
 
