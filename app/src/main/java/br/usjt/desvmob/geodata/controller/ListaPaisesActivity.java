@@ -25,6 +25,9 @@ public class ListaPaisesActivity extends Activity {
     ArrayList<Pais> paises;
     ArrayList<String> nomes;
 
+    /**
+     * Lista de paises
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

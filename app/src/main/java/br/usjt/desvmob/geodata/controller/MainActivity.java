@@ -18,6 +18,9 @@ public class MainActivity extends Activity {
     public static final String CHAVE = "br.usjt.desvmob.geodata.txtContinente";
     String continente = "Todos";
 
+    /**
+     * Lista de continentes.
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

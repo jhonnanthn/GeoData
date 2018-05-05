@@ -14,6 +14,9 @@ import br.usjt.desvmob.geodata.model.Pais;
  */
 public class DetalhePaisActivity extends Activity {
 
+    /**
+     * Detalhes sobre o país selecionado pelo usuário.
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -10,6 +10,9 @@ import java.util.Arrays;
 
 public class Data {
 
+    /**
+     * Lista dos nomes dos países.
+     */
     public static ArrayList<String> listarNomes(ArrayList<Pais> paises){
         ArrayList<String> nomes = new ArrayList<>();
         for (Pais pais : paises) {
@@ -17,6 +20,10 @@ public class Data {
         }
         return nomes;
     }
+
+    /**
+     * Lista de países de acordo com o continente.
+     */
     public static ArrayList<Pais> listarPaises(String continente) {
         Pais[] lista;
         ArrayList<Pais> paises = new ArrayList<>();
@@ -34,6 +41,9 @@ public class Data {
         return paises;
     }
 
+    /**
+     * Arraylist de todos os países
+     */
     private static ArrayList<Pais> todosPaises() {
         ArrayList<Pais> paises = new ArrayList<>();
         Pais pais;

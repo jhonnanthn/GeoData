@@ -10,6 +10,9 @@ import java.text.Collator;
  */
 
 public class Pais implements Serializable, Comparable {
+    /**
+     * Classe que contém todas as informações do País.
+     */
     private String nome;
     private String codigo3;
     private String capital;
@@ -164,6 +167,9 @@ public class Pais implements Serializable, Comparable {
         this.longitude = longitude;
     }
 
+    /**
+     * Retorno para a view detalhe_pais
+     */
     @Override
     public String toString() {
         return  "\nNome: '" + nome + '\'' +
