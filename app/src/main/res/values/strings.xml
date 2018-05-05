@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">GeoData</string>
-    <string name="btn_busca">Listar</string>
-    <string name="lblContinente">Continente: </string>
+    <string name="app_name">Aplicativo Geodata</string>
+    <string name="btn_busca">Buscar</string>
+    <string name="lblContinente"></string>
     <string-array name="continentes">
         <item>Todos</item>
         <item>Africa</item>

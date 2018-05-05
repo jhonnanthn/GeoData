@@ -13,7 +13,7 @@ public class Data {
     /**
      * Lista dos nomes dos países.
      */
-    public static ArrayList<String> listarNomes(ArrayList<Pais> paises){
+    public static ArrayList<String> listarNomes(Pais[] paises){
         ArrayList<String> nomes = new ArrayList<>();
         for (Pais pais : paises) {
             nomes.add(pais.getNome());
@@ -24,7 +24,7 @@ public class Data {
     /**
      * Lista de países de acordo com o continente.
      */
-    public static ArrayList<Pais> listarPaises(String continente) {
+    public static Pais[] listarPaises(String continente) {
         Pais[] lista;
         ArrayList<Pais> paises = new ArrayList<>();
         for (Pais pais : todosPaises()) {
@@ -34,11 +34,8 @@ public class Data {
         }
         lista = paises.toArray(new Pais[0]);
         Arrays.sort(lista);
-        paises = new ArrayList<>();
-        for(int i = 0; i < lista.length; i++) {
-            paises.add(lista[i]);
-        }
-        return paises;
+
+        return lista;
     }
 
     /**

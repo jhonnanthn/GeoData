@@ -10,9 +10,8 @@
         android:id="@+id/txtPais"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16px"
-        android:layout_marginLeft="16px"
-        android:padding="15dp"
-        android:textColor="@color/blue"/>
+        android:padding="15px"
+        android:layout_marginLeft="15px"
+        android:textColor="@color/blue" />
 
 </LinearLayout>
