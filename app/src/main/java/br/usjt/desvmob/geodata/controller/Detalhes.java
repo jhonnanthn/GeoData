@@ -12,7 +12,7 @@ import br.usjt.desvmob.geodata.model.Pais;
  * Jhonnanthn William Carlos Balsas
  * 816119078 - CCP3AN-MCA
  */
-public class DetalhePaisActivity extends Activity {
+public class Detalhes extends Activity {
 
     /**
      * Detalhes sobre o país selecionado pelo usuário.
@@ -23,7 +23,7 @@ public class DetalhePaisActivity extends Activity {
         setContentView(R.layout.activity_detalhe_pais);
         TextView txtPais = (TextView)findViewById(R.id.txtPais);
         Intent intent = getIntent();
-        Pais pais = (Pais)intent.getSerializableExtra(ListaPaisesActivity.PAIS);
+        Pais pais = (Pais)intent.getSerializableExtra(Listar.PAIS);
         txtPais.setText(pais.toString());
     }
 }

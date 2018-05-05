@@ -19,7 +19,7 @@ import br.usjt.desvmob.geodata.util.PaisAdapter;
  * 816119078 - CCP3AN-MCA
  */
 
-public class ListaPaisesActivity extends Activity {
+public class Listar extends Activity {
     public static final String PAIS = "br.usjt.desvmob.geodata.model.Pais";
     Activity atividade;
     Pais[] paises;
@@ -49,7 +49,7 @@ public class ListaPaisesActivity extends Activity {
                                     int position, long id) {
 
                 // manda para a tela de detalhe
-                Intent intent = new Intent(atividade, DetalhePaisActivity.class);
+                Intent intent = new Intent(atividade, Detalhes.class);
                 intent.putExtra(PAIS, paises[position]);
 
                 startActivity(intent);
