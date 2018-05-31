@@ -1,19 +1,21 @@
-package br.usjt.desvmob.geodata.model;
+package br.usjt.desvmob.geodata.viewmodel;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+
+import br.usjt.desvmob.geodata.model.Pais;
 
 /**
  * Jhonnanthn William Carlos Balsas
  * 816119078 - CCP3AN-MCA
  */
 
-public class Data {
+public class Data implements ViewModel{
 
     /**
      * Lista dos nomes dos países.
      */
-    public static ArrayList<String> listarNomes(Pais[] paises){
+    public ArrayList<String> listarNomes(Pais[] paises){
         ArrayList<String> nomes = new ArrayList<>();
         for (Pais pais : paises) {
             nomes.add(pais.getNome());
@@ -24,7 +26,7 @@ public class Data {
     /**
      * Lista de países de acordo com o continente.
      */
-    public static Pais[] listarPaises(String continente) {
+    public Pais[] listarPaises(String continente) {
         Pais[] lista;
         ArrayList<Pais> paises = new ArrayList<>();
         for (Pais pais : todosPaises()) {
@@ -41,7 +43,7 @@ public class Data {
     /**
      * Arraylist de todos os países
      */
-    private static ArrayList<Pais> todosPaises() {
+    public ArrayList<Pais> todosPaises() {
         ArrayList<Pais> paises = new ArrayList<>();
         Pais pais;
         ArrayList<String> idiomas;

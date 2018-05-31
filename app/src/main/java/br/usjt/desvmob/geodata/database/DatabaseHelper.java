@@ -1,4 +1,4 @@
-package br.usjt.desvmob.geodata.controller;
+package br.usjt.desvmob.geodata.database;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

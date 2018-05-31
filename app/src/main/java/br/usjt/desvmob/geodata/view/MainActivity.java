@@ -1,4 +1,4 @@
-package br.usjt.desvmob.geodata.controller;
+package br.usjt.desvmob.geodata.view;
 
 import android.app.Activity;
 import android.content.Context;
@@ -12,6 +12,8 @@ import android.widget.Spinner;
 import java.io.IOException;
 
 import br.usjt.desvmob.geodata.R;
+import br.usjt.desvmob.geodata.database.Database;
+import br.usjt.desvmob.geodata.database.Network;
 import br.usjt.desvmob.geodata.model.Pais;
 
 /**
@@ -19,7 +21,7 @@ import br.usjt.desvmob.geodata.model.Pais;
  * 816119078 - CCP3AN-MCA
  */
 public class MainActivity extends Activity {
-    public static final String PAIS = "br.usjt.desvmob.geodata.controller.MainActivity.ListaPaises";
+    public static final String PAIS = "br.usjt.desvmob.geodata.view.MainActivity.ListaPaises";
     private Spinner spinContinente;
     private Context context;
 

@@ -1,4 +1,4 @@
-package br.usjt.desvmob.geodata.controller;
+package br.usjt.desvmob.geodata.database;
 
 import android.content.ContentValues;
 import android.content.Context;

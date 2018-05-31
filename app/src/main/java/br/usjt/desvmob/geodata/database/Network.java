@@ -1,7 +1,4 @@
-package br.usjt.desvmob.geodata.controller;
-
-import android.content.Context;
-import android.net.ConnectivityManager;
+package br.usjt.desvmob.geodata.database;
 
 import org.json.JSONArray;
 import org.json.JSONException;

@@ -1,4 +1,4 @@
-package br.usjt.desvmob.geodata.controller;
+package br.usjt.desvmob.geodata.view;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -10,7 +10,8 @@ import android.widget.ListView;
 import java.util.ArrayList;
 
 import br.usjt.desvmob.geodata.R;
-import br.usjt.desvmob.geodata.model.Data;
+import br.usjt.desvmob.geodata.util.PaisAdapter;
+import br.usjt.desvmob.geodata.viewmodel.Data;
 import br.usjt.desvmob.geodata.model.Pais;
 
 /**
