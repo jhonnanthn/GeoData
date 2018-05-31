@@ -6,12 +6,12 @@
     android:layout_height="match_parent"
     tools:context="br.usjt.desvmob.geodata.controller.Detalhes">
 
-    <TextView
+    <fragment
         android:id="@+id/txtPais"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="15px"
-        android:layout_marginLeft="15px"
-        android:textColor="@color/blue" />
-
+        android:layout_height="match_parent"
+        android:textColor="@color/blue"
+        class="br.usjt.desvmob.geodata.controller.Detalhes"
+        tools:layout="@layout/activity_detalhe_pais">
+    </fragment>
 </LinearLayout>

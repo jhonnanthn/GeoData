@@ -1,8 +1,10 @@
 package br.usjt.desvmob.geodata.controller;
 
 import android.app.Activity;
+import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
 import android.widget.TextView;
 
 import br.usjt.desvmob.geodata.R;
@@ -25,5 +27,12 @@ public class Detalhes extends Activity {
         Intent intent = getIntent();
         Pais pais = (Pais)intent.getSerializableExtra(Listar.PAIS);
         txtPais.setText(pais.toString());
+
+        android.support.v4.app.FragmentManager fm = getSupportFragmentManager ( );
+        if (savedInstanceState == null){
+            FragmentTransaction ft = fm.beginTransaction();
+            ft.add (R.id.txtPais , pais, pais.toString());
+            ft.commit();
+        }
     }
 }

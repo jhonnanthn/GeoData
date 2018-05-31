@@ -1,5 +1,7 @@
 package br.usjt.desvmob.geodata.model;
 
+import android.app.Fragment;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.text.Collator;
@@ -9,7 +11,7 @@ import java.text.Collator;
  * 816119078 - CCP3AN-MCA
  */
 
-public class Pais implements Serializable, Comparable {
+public class Pais extends Fragment implements Serializable, Comparable {
     /**
      * Classe que contém todas as informações do País.
      */

@@ -7,36 +7,20 @@
     android:orientation="vertical"
     tools:context="br.usjt.desvmob.geodata.controller.MainActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
 
         <Spinner
-            android:id="@+id/continente"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:entries="@array/continentes" />
-
+            android:id="@+id/continente"
+            android:entries="@array/continentes"
+            tools:ignore="Suspicious0dp" />
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:text="@string/btn_busca"
             android:onClick="listarPaises"
-            android:text="@string/btn_busca" />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="center_horizontal">
-        <ProgressBar
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/timer"
-            style="@android:style/Widget.ProgressBar.Large.Inverse"
-            android:paddingTop="100dp"
-            />
-    </LinearLayout>
+            android:layout_weight="1"
+            tools:ignore="Suspicious0dp" />
 
 </LinearLayout>
