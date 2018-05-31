@@ -12,9 +12,7 @@ import android.widget.Spinner;
 import java.io.IOException;
 
 import br.usjt.desvmob.geodata.R;
-import br.usjt.desvmob.geodata.database.Database;
 import br.usjt.desvmob.geodata.model.Pais;
-import br.usjt.desvmob.geodata.util.Network;
 
 /**
  * Jhonnanthn William Carlos Balsas

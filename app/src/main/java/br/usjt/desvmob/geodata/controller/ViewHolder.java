@@ -1,4 +1,4 @@
-package br.usjt.desvmob.geodata.util;
+package br.usjt.desvmob.geodata.controller;
 
 import android.widget.ImageView;
 import android.widget.TextView;

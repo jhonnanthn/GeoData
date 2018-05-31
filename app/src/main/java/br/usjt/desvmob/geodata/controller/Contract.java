@@ -1,4 +1,4 @@
-package br.usjt.desvmob.geodata.database;
+package br.usjt.desvmob.geodata.controller;
 
 import android.provider.BaseColumns;
 

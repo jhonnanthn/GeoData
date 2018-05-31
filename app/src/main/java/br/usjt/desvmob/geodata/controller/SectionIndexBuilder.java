@@ -1,4 +1,4 @@
-package br.usjt.desvmob.geodata.util;
+package br.usjt.desvmob.geodata.controller;
 
 import java.util.ArrayList;
 import java.util.Hashtable;

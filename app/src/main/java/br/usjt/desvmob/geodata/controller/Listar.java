@@ -12,7 +12,6 @@ import java.util.ArrayList;
 import br.usjt.desvmob.geodata.R;
 import br.usjt.desvmob.geodata.model.Data;
 import br.usjt.desvmob.geodata.model.Pais;
-import br.usjt.desvmob.geodata.util.PaisAdapter;
 
 /**
  * Jhonnanthn William Carlos Balsas
